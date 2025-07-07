@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "SRP", targets: ["SRP"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-crypto", from: "1.0.0"),
+        .package(url: "https://github.com/apple/swift-crypto", from: "3.9.1"),
         .package(url: "https://github.com/adam-fowler/big-num", from: "2.0.0"),
     ],
     targets: [
